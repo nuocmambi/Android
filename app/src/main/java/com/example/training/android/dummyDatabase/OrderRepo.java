@@ -23,7 +23,7 @@ public class OrderRepo {
         orderList.add(order);
     }
 
-    public Order[] getAll(){
-        return (Order[]) orderList.toArray();
+    public List<Order> getAll(){
+        return orderList;
     }
 }

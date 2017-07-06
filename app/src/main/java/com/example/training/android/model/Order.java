@@ -28,4 +28,8 @@ public class Order {
     public void setTableNo(int tableNo) {
         this.tableNo = tableNo;
     }
+
+    public String toString() {
+        return "Order No: " + orderNo + " Table No: " + tableNo;
+    }
 }
