@@ -28,5 +28,6 @@
         android:layout_above="@+id/viewOrders"
         android:layout_alignLeft="@+id/viewOrders"
         android:layout_alignStart="@+id/viewOrders"
-        android:layout_marginBottom="70dp" />
+        android:layout_marginBottom="70dp"
+        android:onClick="newOrder"/>
 </RelativeLayout>

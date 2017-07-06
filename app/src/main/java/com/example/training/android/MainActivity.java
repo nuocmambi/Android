@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.training.android.newOrder.NewOrder;
 import com.example.training.android.viewOrders.ViewOrders;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void viewOrders(View view) {
         Intent intent = new Intent(this, ViewOrders.class);
+        startActivity(intent);
+    }
+
+    public void newOrder(View view) {
+        Intent intent = new Intent(this, NewOrder.class);
         startActivity(intent);
     }
 }
